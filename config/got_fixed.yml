@@ -7,5 +7,5 @@ github:
   - owner: ssaunier
     repo: got_fixed_demo
     labels: public  # Comma-separated labels for github issues to be shown on dashboard
-    access_token: ''  # No need as repo is public (counter-example...)
+    access_token: <%= ENV['GITHUB_PERSONAL_ACCESS_TOKEN'] %>
     webhook_secret: <%= ENV['GITHUB_WEBHOOK_SECRET'] %>
