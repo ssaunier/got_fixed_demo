@@ -45,3 +45,5 @@ gem 'rails_12factor', group: :production
 
 #gem "got_fixed",  path: "../got_fixed"
 gem "got_fixed", "0.0.6"
+
+gem "resque"

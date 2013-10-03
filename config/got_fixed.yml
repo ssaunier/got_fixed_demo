@@ -1,4 +1,6 @@
-# TODO: Update the user_mailer.from attribute with your email address.
+resque:
+  queue: mail
+
 user_mailer:
   from: '"GotFixed Demo Notifications" <seb@saunier.me>'
   subject_template: "[Fixed] %{title}"
