@@ -6,13 +6,6 @@ GIT
     bootstrap-sass (3.0.0.0)
       sass (~> 3.2)
 
-PATH
-  remote: ../got_fixed
-  specs:
-    got_fixed (0.0.6)
-      httparty
-      rails (>= 3.1)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -61,6 +54,9 @@ GEM
     erubis (2.7.0)
     eventmachine (1.0.3)
     execjs (2.0.2)
+    got_fixed (0.1.0)
+      httparty
+      rails (>= 3.1)
     hike (1.2.3)
     httparty (0.11.0)
       multi_json (~> 1.0)
@@ -155,7 +151,7 @@ DEPENDENCIES
   bootstrap-sass!
   coffee-rails (~> 4.0.0)
   debugger
-  got_fixed!
+  got_fixed (= 0.1.0)
   jquery-rails
   pg
   rails (= 4.0.0)
