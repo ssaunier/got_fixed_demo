@@ -1,1 +1,6 @@
-alert('<%= j @user.email %> subscribed to issue #<%= @issue.vendor_id %>');
+// alert('<%= j @user.email %> subscribed to issue #<%= @issue.vendor_id %>');
+
+$('#modal-subscribe').modal('hide');
+var $row = $('[data-issue-vendor-id=<%= @issue.vendor_id %>]');
+$row.addClass('subscribed')
+$row.find('td:last').html("Subscribed")

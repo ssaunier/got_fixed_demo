@@ -22,11 +22,13 @@ gem 'coffee-rails', '~> 4.0.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
+gem "bootstrap-sass", git: 'git://github.com/thomas-mcdonald/bootstrap-sass.git', branch: "3"
+
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+# gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 1.2'
+# gem 'jbuilder', '~> 1.2'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -43,7 +45,7 @@ gem 'debugger', group: [:development, :test]
 # For Heroku
 gem 'rails_12factor', group: :production
 
-#gem "got_fixed",  path: "../got_fixed"
-gem "got_fixed", "0.0.6"
+gem "got_fixed",  path: "../got_fixed"
+#gem "got_fixed", "0.0.6"
 
 gem "resque"
